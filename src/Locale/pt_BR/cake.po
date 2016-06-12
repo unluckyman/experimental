@@ -1,0 +1,261 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-05-16 16:54+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Template/Error/error400.ctp:33
+#: Template/Error/error500.ctp:35
+msgid "Error"
+msgstr "Erro"
+
+#: Template/Error/error400.ctp:35
+msgid "The requested address %s was not found on this server."
+msgstr "O endereço requisitado %s não foi encontrado nesse servidor."
+
+#: Template/Error/error500.ctp:33
+msgid "An Internal Error Has Occurred"
+msgstr "Um erro interno ocorreu"
+
+#: Controller/Component/AuthComponent.php:434
+msgid "You are not authorized to access that location."
+msgstr "Você não está autorizado a acessar essa parte do sistema."
+
+#: Controller/Component/CsrfComponent.php:148;152
+msgid "Invalid CSRF token."
+msgstr "CSRF token inválido."
+
+#: Error/ExceptionRenderer.php:225
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: Error/ExceptionRenderer.php:227
+msgid "An Internal Error Has Occurred."
+msgstr "Um erro interno ocorreu."
+
+#: I18n/Number.php:75
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:77
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:79
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:81
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:73
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/Time.php:254
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: I18n/Time.php:255
+msgid "on %s"
+msgstr "em %s"
+
+#: I18n/Time.php:295
+msgid "just now"
+msgstr "agora"
+
+#: I18n/Time.php:411
+msgid "about a second ago"
+msgstr "cerca de um segundo"
+
+#: I18n/Time.php:412
+msgid "about a minute ago"
+msgstr "cerca de um minuto"
+
+#: I18n/Time.php:413
+msgid "about an hour ago"
+msgstr "cerca de uma hora"
+
+#: I18n/Time.php:414
+msgid "about a day ago"
+msgstr "cerca de uma dia"
+
+#: I18n/Time.php:415
+msgid "about a week ago"
+msgstr "cerca de uma semana"
+
+#: I18n/Time.php:416
+msgid "about a year ago"
+msgstr "cerca de um ano"
+
+#: I18n/Time.php:425
+msgid "in about a second"
+msgstr "em um segundo"
+
+#: I18n/Time.php:426
+msgid "in about a minute"
+msgstr "em um minuto"
+
+#: I18n/Time.php:427
+msgid "in about an hour"
+msgstr "em uma hora"
+
+#: I18n/Time.php:428
+msgid "in about a day"
+msgstr "em um dia"
+
+#: I18n/Time.php:429
+msgid "in about a week"
+msgstr "em uma semana"
+
+#: I18n/Time.php:430
+msgid "in about a year"
+msgstr "em um ano"
+
+#: I18n/Time.php:384
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} ano"
+msgstr[1] "{0} anos"
+
+#: I18n/Time.php:387
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} mês"
+msgstr[1] "{0} meses"
+
+#: I18n/Time.php:390
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} semana"
+msgstr[1] "{0} semanas"
+
+#: I18n/Time.php:393
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} dia"
+msgstr[1] "{0} dias"
+
+#: I18n/Time.php:396
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} hora"
+msgstr[1] "{0} horas"
+
+#: I18n/Time.php:399
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} hora"
+msgstr[1] "{0} horas"
+
+#: I18n/Time.php:402
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} segundo"
+msgstr[1] "{0} segundos"
+
+#: Network/Response.php:1423
+msgid "The requested file was not found"
+msgstr "O arquivo requisitado não foi encontrado"
+
+#: ORM/RulesChecker.php:317
+msgid "This value is already in use"
+msgstr "Esse valor já está em uso"
+
+#: ORM/RulesChecker.php:351
+msgid "This value does not exist"
+msgstr "Esse valor não existe"
+
+#: Utility/Text.php:670
+msgid "and"
+msgstr "e"
+
+#: Validation/Validator.php:97
+msgid "This field is required"
+msgstr "Esse campo é obrigatório"
+
+#: Validation/Validator.php:98
+msgid "This field cannot be left empty"
+msgstr "Esse campo não pode ficar em branco"
+
+#: Validation/Validator.php:563
+msgid "The provided value is invalid"
+msgstr "O valor provido é inválido"
+
+#: View/Helper/FormHelper.php:939
+msgid "New %s"
+msgstr "Novo %s"
+
+#: View/Helper/FormHelper.php:942
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: View/Helper/FormHelper.php:1729
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/Helper/HtmlHelper.php:769
+msgid "Home"
+msgstr "Home"
+
+#: View/Widget/DateTimeWidget.php:510
+msgid "January"
+msgstr "Janeiro"
+
+#: View/Widget/DateTimeWidget.php:511
+msgid "February"
+msgstr "Fevereiro"
+
+#: View/Widget/DateTimeWidget.php:512
+msgid "March"
+msgstr "Março"
+
+#: View/Widget/DateTimeWidget.php:513
+msgid "April"
+msgstr "Abril"
+
+#: View/Widget/DateTimeWidget.php:514
+msgid "May"
+msgstr "Maio"
+
+#: View/Widget/DateTimeWidget.php:515
+msgid "June"
+msgstr "Junho"
+
+#: View/Widget/DateTimeWidget.php:516
+msgid "July"
+msgstr "Julho"
+
+#: View/Widget/DateTimeWidget.php:517
+msgid "August"
+msgstr "Agosto"
+
+#: View/Widget/DateTimeWidget.php:518
+msgid "September"
+msgstr "Setembro"
+
+#: View/Widget/DateTimeWidget.php:519
+msgid "October"
+msgstr "Outubro"
+
+#: View/Widget/DateTimeWidget.php:520
+msgid "November"
+msgstr "Novembro"
+
+#: View/Widget/DateTimeWidget.php:521
+msgid "December"
+msgstr "Dezembro"
+

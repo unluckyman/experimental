@@ -1,0 +1,295 @@
+/* Sobrescrita do bootstrap */
+h1 {
+  margin-bottom: 45px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: 5px auto rgb(97, 169, 62);
+}
+
+.form-control:focus {
+  border-color: rgb(97, 169, 62);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(97, 169, 62, .6);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: rgb(97, 169, 62);
+}
+
+.nav>li>a {
+  color: rgb(97, 169, 62);
+}
+
+/* CSS para RoyalSlider */
+#slider {
+  width: 100%;
+  color: #000;
+}
+
+.fullWidth {
+  max-width: 1400px;
+  margin: 0 auto 24px;
+}
+
+@media screen and (min-width:960px) and (min-height:660px) {
+  .heroSlider .rsOverflow,
+  .royalSlider.heroSlider {
+    height: 520px !important;
+  }
+}
+
+@media screen and (min-width:960px) and (min-height:1000px) {
+  .heroSlider .rsOverflow,
+  .royalSlider.heroSlider {
+    height: 660px !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .royalSlider.heroSlider,
+  .royalSlider.heroSlider .rsOverflow {
+    height: 300px !important;
+  }
+}
+
+/* TODO: remover; */
+.bg-parallax {
+  min-height: 500px;
+}
+
+html * { font-family: 'Open Sans', sans-serif; }
+
+body { background-color: rgb(252, 250, 246); color: #404040; }
+
+#header {
+  height: 116px;
+  min-height: 116px;
+  position: relative;
+}
+
+#header .navbar-default {
+  background-color: rgb(252, 250, 246);
+  border-color: rgb(235, 235, 235);
+  color: rgb(191, 187, 187);
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.header-top {
+  border-bottom: solid rgb(235, 235, 235) 1px;
+  font-size: 11px;
+  padding-bottom: 4px;
+  padding-top: 8px;
+}
+
+.header-top a {
+  color: rgb(191, 187, 187);
+  text-decoration: none;
+}
+
+.header-top a:focus,
+.header-top a:hover,
+#contato a:not(.btn) {
+  color: rgb(97, 169, 62);
+}
+
+.header-top div[class^="col-sm"] {
+  margin-top: 7px;
+}
+
+.header-logo {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.header-logo a {
+  display: inline-block;
+}
+
+.navbar-toggle {
+  background-color: rgb(97, 169, 62);
+  color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: rgb(66, 57, 50);
+}
+
+#navbar a {
+  color: rgb(66, 57, 50);
+}
+
+#navbar a:hover,
+#navbar .active,
+#navbar .active > a {
+  background-color: rgb(97, 169, 62);
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  border: none;
+}
+
+.header-logo img { width: 234px; }
+
+#sobre, #projetos, #clientes {
+  background-color: rgb(97, 169, 62);
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+  #header {
+    height: 224px;
+    min-height: 224px;
+  }
+
+  .header-logo { border-bottom: solid rgb(235, 235, 235) 1px; }
+  .header-logo img { width: auto; }
+
+  #navbar { text-align: center; }
+
+  #navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+  }
+
+  #navbar a {
+    border-left: solid rgb(235, 235, 235) 1px;
+    padding: 10px 25px;
+  }
+
+  #navbar li:last-child a {
+    border-right: solid rgb(235, 235, 235) 1px;
+  }
+}
+
+/* nova feature do bootstrap 4 */
+.card {
+  margin-top: 15px;
+  position: relative;
+  border: .0625rem solid #e5e5e5;
+  border-radius: .25rem;
+  min-height: 129px;
+}
+
+.card-inverse {
+  background-color: rgb(240, 238, 234);
+  color: rgb(66, 57, 50);
+}
+
+.card, .card-title {
+  margin-bottom: .75rem;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-block {
+  padding: 1.25rem;
+}
+
+.card-block-link {
+  display: block;
+  background-color: rgb(240, 238, 234);
+  text-decoration: none;
+  color: rgb(64, 64, 64);
+  transition: all 0.3s ease-out;
+}
+
+.card-block-link:hover,
+.card-block-link:focus,
+.card-block-link:active {
+  background-color: rgb(97, 169, 62);
+  color: #FFF;
+  text-decoration: none;
+}
+
+.card-link {
+  color: rgb(97, 169, 62);
+}
+
+.card-link:hover,
+.card-link:focus,
+.card-link:active {
+  color: rgb(7, 79, 0);
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 180px;
+  width: 100%;
+  display: block;
+  border-radius: .25rem .25rem 0 0;
+}
+
+.card-deck {
+  display: table;
+  table-layout: fixed;
+  border-spacing: 1.25rem 0;
+}
+
+.card-deck .card {
+  display: table-cell;
+  width: 1%;
+  vertical-align: top;
+}
+
+.card-deck-wrapper {
+  margin-right: -1.25rem;
+  margin-left: -1.25rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.margin-top-45 { margin-top: 45px; }
+.margin-bottom-45 { margin-bottom: 45px; }
+
+.element-title {
+  color: rgb(97, 169, 62);
+  font-size: 16px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.element-text {
+  font-size: 16px;
+  text-align: justify;
+  border-left: 1px solid #ccc;
+}
+
+.element-text > strong {
+  font-size: 24px;
+}
+
+.breadcrumb_link {
+  color: rgb(97, 169, 62);
+  display: block;
+  padding: 9px 18px;
+  width: 100px;
+}
+
+.breadcrumb_link:hover, .breadcrumb_link:focus, .breadcrumb_link:active {
+  color: #FFF;
+  background-color: rgb(97, 169, 62);
+  text-decoration: none;
+}
+
+.service h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.footer, footer {
+  background-color: rgb(97, 169, 62);
+  color: rgb(255, 255, 255);
+  padding: 30px 0;
+}
+
+.footer a, footer a {
+  color: #fff;
+  text-decoration: underline;
+}

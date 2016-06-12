@@ -1,0 +1,115 @@
+.btn, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+  outline: none;
+}
+
+.login-wrapper {
+  background: -webkit-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #ECE9E6 10%, #FFFFFF 90%); /* W3C */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.login-form {
+  left: 25%;
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+@media(min-width: 768px) {
+  .login-form {
+    left: 33%;
+    width: 34%;
+  }
+}
+
+@media(min-width: 992px) {
+  .login-form {
+    left: 35%;
+    width: 30%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .login-form {
+    left: 36%;
+    width: 26%;
+  }
+}
+
+.login-form * {
+  font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.login-form h1,
+.client-home h3 {
+  color: rgb(97, 169, 62);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  background: #fff;
+  border: none;
+  box-shadow: none;
+  color: rgb(97, 169, 62);
+  display: block;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+  background: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.login-form ::-webkit-input-placeholder { color: #ccc; }
+.login-form input:-moz-placeholder      { color: #ccc; }
+.login-form input::-moz-placeholder     { color: #ccc; }
+.login-form input:-ms-input-placeholder { color: #ccc; }
+
+.login-form label {
+  color: #999;
+  font-weight: bold;
+}
+
+.login-header {
+  color: #999;
+  margin: 0 auto 25px;
+  text-align: center;
+}
+
+.client-home {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand, .navbar-right li {
+  height: 110px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #c00;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #c00;
+  text-decoration: underline;
+}
+
+@media(max-width: 490px) {
+  .navbar-brand {
+    width: 80%;
+    height: auto;
+  }
+}
+
